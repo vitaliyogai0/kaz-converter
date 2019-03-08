@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Конвертер</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="content mt-5">
+		<div class="row">
+			<div class="col-6 offset-md-2">
+				<h1 class="mb-3">Конвертер казахского языка</h1>
+				<p>
+					<textarea class="form-control" id="input" cols="30" rows="10" placeholder="Введите текст"></textarea>
+				</p>
+				<p>
+					<button class="btn btn-primary mr-1" id="convert">Конвертировать</button>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="choice" id="kir_to_lat" checked>
+						<label for="kir_to_lat" class="form-check-label">С кириллицы на латиницу</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="choice" id="lat_to_kir">
+						<label for="lat_to_kir" class="form-check-label">С латиницы на кириллицу (возможны ошибки)</label>
+					</div>
+				</p>
+				<p>
+					<textarea class="form-control" id="output" cols="30" rows="10" placeholder="Вывод"></textarea>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/dict.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
