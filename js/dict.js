@@ -152,8 +152,8 @@ const
 
 	DICT_REVERSED_DOUBLE = {
 		"ch":"ч",
-		"sh":"ш",
 		"{sh}": "сх",
+		"sh":"ш",
 		"ıý":"ю",
 		"ıa":"я",
 		"Ch":"Ч",
